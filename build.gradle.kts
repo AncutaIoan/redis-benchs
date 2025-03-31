@@ -21,11 +21,15 @@ dependencies {
     implementation("org.redisson:redisson:3.23.5")
     // Jedis (Non-Reactive Redis Client)
     implementation("redis.clients:jedis:5.1.0")
+
+    // SLF4J Simple Logger to suppress warnings
+    implementation("org.slf4j:slf4j-simple:2.0.12")
 }
 
 tasks.test {
     useJUnitPlatform()
 }
+
 kotlin {
     jvmToolchain(21)
 }
