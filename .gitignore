@@ -43,3 +43,10 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### IDEA ###
+# IntelliJ IDEA
+.idea/
+
+# Gradle Wrapper
+gradle/*
