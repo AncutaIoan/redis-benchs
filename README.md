@@ -113,4 +113,21 @@ After the benchmark completes, the **Lettuce** client is explicitly shut down to
 
 This benchmarking project is designed to help you compare the performance of various Redis clients (Jedis, Lettuce, and Redisson) when interacting with Redis and Dragonfly.
  You can easily adjust the number of iterations and concurrency to test different scenarios. 
- This can help you make an informed decision about which Redis client and database are best suited for your project.
+ This can help you make an informed decision about which Redis client and database are best suited for your project. 
+ 
+## Conclusion: Lettuce vs. Redisson
+### Lettuce:
+- ✅ Lightweight, non-blocking, supports reactive patterns  
+- ✅ Built-in support for Reactor API  
+- ✅ Works well with Spring WebFlux  
+- ❌ Lacks advanced distributed structures  
+
+### Redisson:
+- ✅ Provides distributed locks, maps, queues, etc.  
+- ✅ Advanced caching & clustering support  
+- ✅ Good for microservices needing distributed features  
+- ❌ Slightly heavier than Lettuce  
+
+### When to Use:
+- 👉 **Use Lettuce** if you want a **lightweight, reactive Redis client** for simple caching.  
+- 👉 **Use Redisson** if you need **distributed locks, queues, or advanced caching**.
