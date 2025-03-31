@@ -5,24 +5,24 @@ This project benchmarks three popular Redis clients — **Jedis (Blocking Client
 
 ## Project Structure
 
-- **Jedis**: A simple, blocking Redis client.
-- **Lettuce**: A non-blocking, reactive Redis client.
-- **Redisson**: A distributed and reactive Redis client.
-- **Redis** and **Dragonfly**: Redis-like data stores used for benchmarking.
+- **[Jedis](https://github.com/redis/jedis)**: A simple, blocking Redis client.
+- **[Lettuce](https://github.com/lettuce-io/lettuce-core)**: A non-blocking, reactive Redis client.
+- **[Redisson](https://github.com/redisson/redisson)**: A distributed and reactive Redis client.
+- **[Redis](https://redis.io/)** and **[Dragonfly](https://www.dragonflydb.io/)**: Redis-like data stores used for benchmarking.
 
 ## Prerequisites
 
 ### Software Required:
 
-- **Redis**: A fast, open-source in-memory key-value store.
-- **Dragonfly**: A Redis-compatible database optimized for performance.
-- **Docker**: To easily run Redis and Dragonfly instances in containers.
+- **[Redis](https://redis.io/)**: A fast, open-source in-memory key-value store.
+- **[Dragonfly](https://www.dragonflydb.io/)**: A Redis-compatible database optimized for performance.
+- **[Docker](https://www.docker.com/)**: To easily run Redis and Dragonfly instances in containers.
 
 ### Dependencies:
 
-- **Kotlin**: Programming language used for the project.
-- **Gradle**: Build automation tool used to compile and run the project.
-- **Redis & Dragonfly Docker Containers**: Running instances of Redis and Dragonfly for the benchmarking.
+- **[Kotlin](https://kotlinlang.org/)**: Programming language used for the project.
+- **[Gradle](https://gradle.org/)**: Build automation tool used to compile and run the project.
+- **[Redis & Dragonfly Docker Containers](https://hub.docker.com/)**: Running instances of Redis and Dragonfly for the benchmarking.
 
 ## Setup
 
