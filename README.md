@@ -66,12 +66,12 @@ After running the program, you'll see the time taken for **SET** and **GET** ope
 Example output:
 ```
 Starting Parallel Benchmarks...
-Jedis (Redis) Set Time: 623 ms, Get Time: 201 ms
-Jedis (Dragonfly) Set Time: 709 ms, Get Time: 211 ms
-Lettuce (Redis) Set Time: 886 ms, Get Time: 298 ms
-Lettuce (Dragonfly) Set Time: 860 ms, Get Time: 285 ms
-Redisson (Redis) Set Time: 1.4s, Get Time: 511 ms
-Redisson (Dragonfly) Set Time: 1.6s, Get Time: 520 ms
+Jedis (Redis) Set Time: 31176 ms, Get Time: 30440 ms
+Jedis (Dragonfly) Set Time: 36130 ms, Get Time: 35640 ms
+Lettuce (Redis) Set Time: 4431 ms, Get Time: 3773 ms
+Lettuce (Dragonfly) Set Time: 7613 ms, Get Time: 7600 ms
+Redisson (Redis) Set Time: 6892 ms, Get Time: 5524 ms
+Redisson (Dragonfly) Set Time: 6070 ms, Get Time: 5483 ms
 ```
 
 ### 3. Adjusting Test Parameters:
