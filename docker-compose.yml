@@ -9,7 +9,7 @@ services:
       - "6379:6379"
 
   dragonfly:
-    image: docker.dragonflydb.io/dragonflydb/dragonfly:latest
+    image: 'docker.dragonflydb.io/dragonflydb/dragonfly'
     container_name: dragonfly
     restart: always
     ports:
